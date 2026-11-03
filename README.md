@@ -55,6 +55,4 @@ wget -P weights https://github.com/S-0-1-1/CryoET-particle-detection-and-localis
 python predict.py --root /path/to/data --weights weights/heatmap_unet.pt --out submission.csv
 ```
 
-## Data and license
 
-Data from the CZII CryoET Object Identification competition, described in Peck et al., *A realistic phantom dataset for benchmarking cryo-ET data annotation*, Nature Methods, 2025. Code and weights under the MIT license.
