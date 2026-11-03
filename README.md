@@ -1,4 +1,4 @@
-# Cryo-ET particle picking with 3D heatmaps
+# Cryo-ET particle detection and localisation with 3D heatmaps
 
 Localization and classification of five protein complexes in cryo-electron tomograms, for the Kaggle competition [CZII CryoET Object Identification](https://www.kaggle.com/competitions/czii-cryo-et-object-identification). Single model, late submission.
 
@@ -20,7 +20,6 @@ cd cryoet-particle-picking
 pip install -r requirements.txt
 ```
 
-Download the [competition data](https://www.kaggle.com/competitions/czii-cryo-et-object-identification/data) and set `DATA` to its folder.
 
 ## Usage
 
